@@ -1,0 +1,51 @@
+<app-main-navbar></app-main-navbar>
+
+<div class="container-fluid p-5 bg-white text-center ">
+    <div class="row p-5">
+        <div class="col ">
+            <!-- <form>
+                <h2 class="signin">Sign In</h2>
+
+                <div class="container  ">
+                  <input type="Email" placeholder="Email" name="" class="input">
+                  <br> <br>
+                  <input type="password" placeholder="Password" name="" class="input">
+                <br> <br>
+                  <button type="button" class="input-btn text-white btn btn-primary">Sign In</button>
+                
+                </div>
+                <br>
+                <a href="">Forgot Password?</a>
+               <br> <br>
+               <button type="button" class="input  btn btn-primary fw-bold" routerLink="/register">Create Account</button>
+                
+
+                </form> -->
+<!-- login.component.html -->
+<form [formGroup]="loginForm" >
+  <h2 class="signin">Sign In</h2>
+
+  <div class="container">
+    <input type="email" placeholder="Email" formControlName="email" class="input">
+    <br> <br>
+    <input type="password" placeholder="Password" formControlName="password" class="input">
+    <br> <br>
+    <button type="button" (click)="onSubmit()" class="input-btn text-white btn btn-primary">Sign In</button>
+  </div>
+  <br>
+  <a href="">Forgot Password?</a>
+  <br> <br>
+  <button type="button" class="input btn btn-primary fw-bold" routerLink="/register">Create Account</button>
+</form>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<img src="assets/images/Ellipse 1.png" alt="" class="Ellips-1">
+    <img src="assets/images/Ellipse 2.png" alt="" class="Ellips-2">
+    
+    <app-main-footer></app-main-footer>

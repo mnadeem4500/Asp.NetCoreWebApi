@@ -1,0 +1,812 @@
+<div class="container-fluid p-5 bg-white  ">
+  <h2 class="main-heading text-center">Welcome Back <span class="text-primary">Abrar!</span></h2>
+
+  <div class="buttons text-center">
+    <button type="button" class="btn btn-primary text-white p-3 fw-bold text-5">My Product Ads</button>
+    <button type="button" class="btn  accoutn-setting">Account Setting</button>
+  </div>
+
+
+  <div class="d-flex justify-content-center align-items-center flex-column">
+    <hr class="w-75 mb-5">
+    <div class="row  ">
+      <div class="search-bar mt-3">
+        <img src="assets/images/search-icon.svg" alt="">
+        <input type="text" placeholder="Search...">
+        <button type="search" class="home-search-btn">Search</button>
+      </div>
+    </div>
+
+    <!-- Suggustiosn -->
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="row p-5 ms-5 g-0">
+        <div class="col">
+          <mat-chip class="chips ms-2 p-2 active">All Ads</mat-chip>
+          <mat-chip class="chips ms-2 p-2">Active Ads</mat-chip>
+          <mat-chip class="chips ms-2 p-2">Inactive Ads</mat-chip>
+          <mat-chip class="chips ms-2 p-2">Pending</mat-chip>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Test -->
+
+
+  <hr />
+  <!-- FIRST ROW -->
+
+  <div class="container ">
+    <div class="row g-0">
+      <div class="col bg-light rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start ms-3">
+                <h3 class="card-title g-0">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <!-- secong-column -->
+      <div class="col bg-light ms-4 rounded">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col">
+            <!-- row-1 -->
+            <div class="row align-items-center">
+              <div class="col-9">
+                <h3 class="card-title">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <!-- SECOND CONTAINER -->
+  <div class="container mt-3">
+    <div class="row g-0">
+      <div class="col bg-light rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start ms-3">
+                <h3 class="card-title g-0">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <!-- secong-column -->
+      <div class="col bg-light ms-4 rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start text-start ms-3">
+                <h3 class="card-title g-0 ">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+  <!-- THIRD CONTAINER -->
+
+  <div class="container mt-3">
+    <div class="row g-0">
+      <div class="col bg-light rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start ms-3">
+                <h3 class="card-title g-0">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <!-- secong-column -->
+      <div class="col bg-light ms-4 rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start text-start ms-3">
+                <h3 class="card-title g-0 ">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <!-- FOURTH CONTAINER -->
+
+  <!-- SECOND CONTAINER -->
+  <div class="container mt-3">
+    <div class="row g-0">
+      <div class="col bg-light rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start ms-3">
+                <h3 class="card-title g-0">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <!-- secong-column -->
+      <div class="col bg-light ms-4 rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start text-start ms-3">
+                <h3 class="card-title g-0 ">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+  <!-- FIFTH CONTAINER -->
+
+  <!-- SECOND CONTAINER -->
+  <div class="container mt-3">
+    <div class="row g-0">
+      <div class="col bg-light rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start ms-3">
+                <h3 class="card-title g-0">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <!-- secong-column -->
+      <div class="col bg-light ms-4 rounded">
+        <div class="row g-0">
+          <div class="col-2 me-5">
+            <img src="assets/images/listing-card-2.png" alt="" class="image">
+          </div>
+          <div class="col-9 p-2">
+            <!-- row-1 -->
+            <div class="row">
+              <div class="col-9 align-self-start text-start ms-3">
+                <h3 class="card-title g-0 ">Suzuki Samurai</h3>
+              </div>
+
+              <div class="col-2 align-self-end text-end ms-3">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                  <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <button mat-menu-ite m>
+                    <mat-icon>edit</mat-icon>
+                    <span>Edit</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>star_rate</mat-icon>
+                    <span>Review</span>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>delete</mat-icon>
+                    <span>Delete</span>
+                  </button>
+                </mat-menu>
+              </div>
+            </div>
+
+
+            <!-- row-2 -->
+            <div class="row g-0">
+              <div class="col">
+                <span class="price">AED $999.99</span>
+              </div>
+
+              <div class="col">
+                <p>
+                  <img src="assets/images/eye.svg" class="pe-2">
+                  <span>Views</span>
+                </p>
+              </div>
+              <div class="col g-0"></div>
+            </div>
+
+
+            <!-- row-3 -->
+            <div class="row">
+              <div class="col">
+                <span class="remeaningdays">Remaning Ads Days: 7</span>
+              </div>
+              <div class="col">
+                <a href="" class="more-views">Get More Views</a>
+              </div>
+              <div class="col align-self-end text-end">
+                <button class="btn btn-dark live">Live</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+  <img src="assets/images/Ellipse 1.png" alt="" class="Ellips-1">
+  <img src="assets/images/Ellipse 2.png" alt="" class="Ellips-2">
+</div>
+
+
+
+
+
+<app-main-footer></app-main-footer>

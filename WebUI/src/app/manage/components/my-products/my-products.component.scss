@@ -1,0 +1,229 @@
+.main-heading{
+
+/* UI/T2/700 */
+font-family: Inter;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 62px; /* 110.714% */
+}
+.accoutn-setting{
+  color: var(--neutral-grey-07, #999);
+
+  /* UI/B2/400 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+// SRAECH BAR
+.home-search-btn {
+  position: absolute;
+  right: 0;
+  display: inline-flex;
+  height: 64px;
+  padding: 6px 32px;
+  justify-content: center;
+  align-items: center;
+  // gap: 8px;
+  // flex-shrink: 0;
+  border-radius: 0px 8px 8px 0px;
+  background: var(--primary-colors-01, #1094FD);
+  color: white;
+  border: none;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+}
+
+.search-bar {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 80rem;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.search-bar input {
+  width: 100%;
+  height: 100%;
+  // padding: 10px;
+  border: none;
+  outline: none;
+}
+
+
+
+.search-bar button i {
+  font-size: 16px;
+  vertical-align: middle;
+}
+.search-input {
+  flex-grow: 1;
+  /* Adjust the margin as needed */
+}
+.chips {
+
+  padding: 12px 24px;
+ 
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--neutral-grey-10, #F5F5F5);
+  }
+  .chips .active{
+    border-radius: 4px;
+    background: var(--primary-colors-01, #1094FD);  }
+
+
+.custom-badge {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #173b41;
+    color: white;
+  }
+  
+  
+  .custom-badge.active {
+    background-color: #007bff;
+    cursor: default;
+  }
+  
+
+  .row2{
+    width: 90%;
+    height: 60px;
+    background-color: rgb(237, 245, 245);
+    margin-top: 10px;
+    padding: 12px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+.row1 input{
+    margin-right: 30px;
+
+}
+.row1 label{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+  // .dropdown{
+  //   margin-left: 13rem;
+      
+  // }
+
+  .row4 .img{
+    width: 165px;
+    height: 150px;
+
+
+  }
+  .title{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  // .price{
+  //   font-size: 14px;
+  //   font-style: italic;
+  //   font-weight: 500;
+  // }
+ 
+  .views{
+    margin-right: 10px;
+  }
+  .buttons{
+    margin-top: 2rem;
+  }
+  hr{
+    margin: 20px;
+  }
+
+
+
+
+
+  .image{
+    width: 112px;
+height: 100px;
+flex-shrink: 0;
+margin: 10px 10px 0px 10px;
+border-radius: 4px;
+  }
+  .card-title{
+    color: var(--neutral-grey-01, #000);
+
+/* UI/B2/700 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+padding: 0px;
+  }
+  .more-views{
+    color: var(--primary-colors-01, #1094FD);
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 150% */
+text-decoration-line: underline;
+  }
+  .price{
+    color: var(--primary-colors-01, #1094FD);
+
+/* UI/B3/400 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+  }
+  .remeaningdays{
+    color: var(--neutral-grey-05, #666);
+
+    /* UI/B4/400 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    }
+
+.live{
+  display: inline-flex;
+padding: 4px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 4px;
+background: var(--neutral-grey-02, #1A1A1A);
+
+
+}
+    
+
+ 
+.Ellips-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Ellips-2 {
+  display: flex;
+  position: absolute;
+  top: 18rem;
+  right: 0;
+}

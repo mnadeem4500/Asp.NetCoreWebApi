@@ -1,0 +1,138 @@
+.container-1{
+    display: flex;
+width: 100%;
+padding: 24px 28px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+background: var(--primary-colors-04, #CCE8FF);
+}
+.contact-heading{
+    color: var(--neutral-grey-02, #1A1A1A);
+
+/* UI/T6/700 */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 125% */
+}
+.description{
+    color: var(--neutral-grey-03, #333);
+text-align: center;
+
+/* UI/B2/400 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.icon-list{
+    color: var(--neutral-grey-03, #333);
+    display: flex;
+    flex-direction: row;
+
+/* UI/B2/400 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.conatainer-2{
+    display: flex;
+    flex-direction: row;
+
+}
+.list{
+    display: flex;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px 20px;
+
+    color: var(--neutral-grey-03, #333);
+
+/* UI/B2/400 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.icon{
+    margin-right: 12px;
+}
+
+
+footer {
+  display: flex;
+  background: var(--neutral-grey-10, #F5F5F5);
+padding: 20px 290px;
+flex-direction: column;
+justify-content: space-between;
+// align-items: center;
+gap: 28px;
+  }
+
+  footer h3 {
+    font-size: 20px;
+
+  }
+
+
+  footer ul {
+    list-style-type: none;
+
+  }
+
+  footer li {
+    margin-bottom: 5px;
+
+
+  }
+
+  footer a {
+
+    text-decoration: none;
+  }
+  .footer-title{
+    color: var(--neutral-grey-01, #000);
+
+/* UI/B2/700 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+  }
+  .footer-anchor{
+    color: var(--neutral-grey-08, #B3B3B3);
+
+    /* UI/B2/400 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .logo{
+    margin-top: -1rem;
+  }
+
+  footer .copyright {
+    color: var(--neutral-grey-07, #999);
+
+/* UI/B2/400 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  }

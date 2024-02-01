@@ -1,0 +1,47 @@
+.signin{
+  color: var(--neutral-grey-02, #1A1A1A);
+
+/* UI/T2/700 */
+font-family: Inter;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 62px; /* 110.714% */
+}
+
+.input{
+  border: none;
+  outline: none;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+width: 440px;
+padding: 16px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid var(--neutral-grey-09, #CCC);
+background: var(--neutral-grey-11, #FFF);
+}
+.input-btn{
+  width: 440px;
+padding: 16px;
+align-items: flex-start;
+gap: 8px;
+color: #1A1A1A;
+}
+.input-btn:hover{
+  color: white;
+}
+
+.Ellips-1 {
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+.Ellips-2 {
+  position: absolute;
+  top: 15rem;
+  right: 0;
+}

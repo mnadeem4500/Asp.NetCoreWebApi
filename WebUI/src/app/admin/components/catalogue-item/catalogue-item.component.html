@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>Catalogue</h1>
+
+<mat-dialog-content>
+    <div class="row g-1">
+        <div class="col-6">
+            <mat-form-field class="w-100">
+                <mat-label>Catalogue Name *</mat-label>
+                <input type="text" matInput />
+            </mat-form-field>
+        </div>
+        <div class="col-6">
+            <mat-form-field class="w-100">
+                <mat-label>Description</mat-label>
+                <input type="text" matInput />
+            </mat-form-field>
+        </div>
+        <fieldset>
+            <legend>Details</legend>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </fieldset>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-raised-button tabindex="-1" mat-dialog-close>Cancel</button>
+    <a mat-raised-button color="primary">Save</a>
+</mat-dialog-actions>

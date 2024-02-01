@@ -1,0 +1,71 @@
+.header {
+    background-color: white;
+    padding: 1rem 3rem;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle;
+  }
+
+  .logo {
+    max-height: 50px;
+    cursor: pointer;
+  }
+
+  .nav-items {
+    text-align: left;
+    margin-left: -28rem;
+  }
+
+  .nav-items a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--neutral-grey-03, #333);
+
+/* UI/B3/400 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 157.143% */
+
+  }
+  .nav-items a .active{
+    color: var(--neutral-grey-01, #000);
+
+/* UI/B3/700 */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+  }
+
+  .language-buttons {
+    text-align: right;
+  }
+
+  .login-button,
+  .sell-button {
+    margin-left: 15px;
+  }
+  .login-button,
+  .sell-button {
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid var(--neutral-grey-09, #CCC);
+
+  }
+
+
+  .languade-convertor{
+    color: var(--neutral-grey-01, #000);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+  }

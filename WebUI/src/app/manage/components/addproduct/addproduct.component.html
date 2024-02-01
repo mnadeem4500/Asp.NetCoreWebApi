@@ -1,0 +1,331 @@
+  <div class="container-fluid p-5 bg-white ">
+    <div class="row">
+      <div class="col text-center">
+    <div *ngIf="currentStep==0">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 offset-2">
+            <h2 class=" main-title">What you want to list?</h2>
+            <p class="p-5 pt-0 description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolore doloremque error 
+              expedita nemo ipsam sunt, possimus aperiam blanditiis nam.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+         <!-- card -->
+         <div class="row m-3">
+    
+          <div class="col-md-3 position-relative">
+              <div class="overlay-card">
+                  <img src="assets/images/card-4.png" class="card-img-top rounded" alt="Image 1">
+                  <div class="card-body overlay">
+                      <h3 class="card-title">Property</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 position-relative">
+              <div class="overlay-card">
+                  <img src="assets/images/card-3.png" class="card-img-top rounded" alt="Image 1">
+                  <div class="card-body overlay">
+                      <h3 class="card-title">Mobile & Tablet</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 position-relative">
+              <div class="overlay-card">
+                  <img src="assets/images/card-2.png" class="card-img-top rounded" alt="Image 1">
+                  <div class="card-body overlay">
+                      <h3 class="card-title">Motors</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 position-relative">
+              <div class="overlay-card">
+                  <img src="assets/images/card-1.png" class="card-img-top rounded" alt="Image 1">
+                  <div class="card-body overlay">
+                      <h3 class="card-title">Classifieds</h3>
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+      </div>
+        
+        <div class="step-btns">
+            <button class="btn button mt-2" (click)="nextStep()">Next</button>
+        </div>
+    </div>
+
+
+    <!-- 2ND STEP CONTENT -->
+    <div *ngIf="currentStep==1">
+        <div class="container text-center">
+<div class="row">
+  <div class="col ">
+    <h2 class="main-title">Now choose the right category <br> for your ad:</h2>
+
+    <div class="row mt-4  ">
+      <div class="col  ">
+        <span class="category-select">Cars</span>
+      </div>
+      <div class="col mt-2">
+        <img src="assets/images/arrow.svg" alt="">
+      </div>
+    </div>
+    <hr class="w-50 border-style ">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col ">
+
+    <div class="row mt-4  ">
+      <div class="col  ms-1">
+        <span class="category-select ps-5">MotorsCycles</span>
+      </div>
+      <div class="col mt-2">
+        <img src="assets/images/arrow.svg" alt="">
+      </div>
+    </div>
+    <hr class="w-50 border-style ">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col ">
+
+    <div class="row mt-4  ">
+      <div class="col  ms-5">
+        <span class="category-select ps-5">Auto Accessories & Parts</span>
+      </div>
+      <div class="col mt-2">
+        <img src="assets/images/arrow.svg" alt="">
+      </div>
+    </div>
+    <hr class="w-50 border-style ">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col ">
+
+    <div class="row mt-4  ">
+      <div class="col  ">
+        <span class="category-select">Boats</span>
+      </div>
+      <div class="col mt-2">
+        <img src="assets/images/arrow.svg" alt="">
+      </div>
+    </div>
+    <hr class="w-50 border-style ">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col ">
+
+    <div class="row mt-4  ">
+      <div class="col  ms-2">
+        <span class="category-select ps-5">Number Plates</span>
+      </div>
+      <div class="col mt-2">
+        <img src="assets/images/arrow.svg" alt="">
+      </div>
+    </div>
+    <hr class="w-50 border-style ">
+  </div>
+</div>
+
+<div class="row">
+  <div class="col ">
+
+    <div class="row mt-4  ">
+      <div class="col  ms-2">
+        <span class="category-select ps-5">Number Plates</span>
+      </div>
+      <div class="col mt-2">
+        <img src="assets/images/arrow.svg" alt="">
+      </div>
+    </div>
+    <hr class="w-50 border-style ">
+  </div>
+</div>
+        </div>
+        <div class="step-btns">
+            <button class="btn button" (click)="prevStep()">Previous</button>
+            <button class="btn button" (click)="nextStep()">Next</button>
+        </div>
+    </div>
+
+    <div  *ngIf="currentStep==2">
+        <!-- Step 3 fields here -->
+
+        <div class="container">
+          <h2 class="main-title">Tell us about your car:</h2>
+          <div class="container d-flex justify-content-center align-items-center flex-column"  >
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input">
+                  <!-- <label for="gender">Select Gender:</label> -->
+                  <select class="form-control input-style" id="gender" name="gender" >
+                      <option value="male">Dubai</option>
+                    <option value="male">UAE</option>
+                    <option value="female">USA</option>
+                    <option value="other">SAUDIA</option>
+                  </select>
+                </div>
+                
+          </div>
+          </div>
+          <!-- row 2 -->
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input">
+                  <!-- <label for="gender">Select Gender:</label> -->
+                  <select class="form-control input-style" id="gender" name="gender" >
+                      <option value="male">Makes & Models</option>
+                    <option value="male">2023</option>
+                    <option value="female">2014</option>
+                    <option value="other">2010</option>
+                  </select>
+                </div>
+                
+          </div>
+          </div>
+          <!-- row 3 -->
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input">
+                  <!-- <label for="gender">Select Gender:</label> -->
+                  <select class="form-control input-style" id="gender" name="gender" >
+                      <option value="male">Trim</option>
+                    <option value="male">UAE</option>
+                    <option value="female">USA</option>
+                    <option value="other">SAUDIA</option>
+                  </select>
+                </div>
+                
+          </div>
+          </div>
+          <!-- row 4 -->
+          <div class="row mt-3">
+            <div class="col">
+              <div class="input">
+                  <!-- <label for="gender">Select Gender:</label> -->
+                  <select class="form-control input-style" id="gender" name="gender">
+                      <option value="male">Kilometers</option>
+                    <option value="male">80KM/h</option>
+                    <option value="female">120Km/h</option>
+                    <option value="other">90Km/h</option>
+                  </select>
+                </div>
+                
+          </div>
+          </div>
+        <!-- row 5 -->
+        <div class="row mt-3">
+          <div class="col">
+            <div class="input">
+                <!-- <label for="gender">Select Gender:</label> -->
+                <select class="form-control input-style" id="gender" name="gender" >
+                    <option value="male">Year</option>
+                  <option value="male">2013</option>
+                  <option value="female">1999</option>
+                  <option value="other">1998</option>
+                </select>
+              </div>
+              
+        </div>
+        </div>
+        <!-- row 6 -->
+        <div class="row mt-3">
+          <div class="col">
+            <div class="input">
+                <!-- <label for="gender">Select Gender:</label> -->
+                <select class="form-control input-style" id="gender" name="gender" >
+                    <option value="male">Is Your car is in UAE</option>
+                  <option value="male">Yes</option>
+                  <option value="female">NO</option>
+                                </select>
+              </div>
+              
+        </div>
+        </div>
+      <!-- row 7 -->
+      <div class="row mt-3">
+        <div class="col">
+          <div class="input">
+              <!-- <label for="gender">Select Gender:</label> -->
+              <span>Price</span>
+            </div>
+            
+      </div>
+      </div>
+      <!-- row 8 -->
+      <div class="row mt-3 mb-4">
+        <div class="col">
+          <div class="input">
+              <!-- <label for="gender">Select Gender:</label> -->
+             <input type="number" name="" id="" placeholder="Mobile Number" class="w-100 border-0">
+            </div>
+            
+      </div>
+      </div>
+        </div>
+        </div>
+        <div class="step-btns">
+          <button class="btn button " (click)="prevStep()">Previous</button>
+          <button class="btn button" (click)="nextStep()">Next</button>
+        </div>
+    </div>
+
+    <div *ngIf="currentStep==3">
+        <h2 class="step-title">Step 4</h2>
+<!-- Step 4 fields here -->
+<div class="container">
+  <h2 class="main-title">You’re almost there!</h2>
+<div class="container d-flex justify-content-center align-items-center flex-column">
+  <!-- row-1 -->
+  <div class="row mt-3 mb-4">
+    <div class="col">
+      <div class="input">
+          <!-- <label for="gender">Select Gender:</label> -->
+         <input type="file" name="" id="" placeholder="Upload Images" class="w-100 border-0">
+        </div>
+        
+  </div>
+  </div>
+<!-- row-2 -->
+<div class="row mt-3 mb-4">
+  <div class="col">
+    <div class="input">
+        <!-- <label for="gender">Select Gender:</label> -->
+       <input type="name" name="" id="" placeholder="Title" class="w-100 border-0">
+      </div>
+      
+</div>
+</div>
+<!-- row-3 -->
+<div class="row mt-3 mb-4">
+  <div class="col">
+    <div class="input">
+        <!-- <label for="gender">Select Gender:</label> -->
+       <textarea name="" id="" cols="30" rows="10" placeholder="aad your details here border-0 w-100"></textarea>
+      </div>
+      
+</div>
+</div>
+</div>
+ 
+</div>
+        <div class="step-btns">
+          <button class="btn btn-primary" (click)="prevStep()">Previous</button>
+            <button class="btn btn-success">Submit</button>
+        </div>
+    </div>
+  </div>
+</div>
+<img src="assets/images/Ellipse 1.png" alt="" class="Ellips-1">
+    <img src="assets/images/Ellipse 2.png" alt="" class="Ellips-2">
+</div>

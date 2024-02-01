@@ -1,0 +1,92 @@
+.main-container{
+  padding: 20px 264px;
+}
+.main-heading{
+
+  /* UI/T2/700 */
+  font-family: Inter;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px; /* 110.714% */
+  }
+  .accoutn-setting{
+    color: var(--neutral-grey-07, #999);
+  
+    /* UI/B2/400 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .vendor-image{
+    width: 120px;
+height: 120px;
+border-radius: 128px;
+  }
+ 
+
+
+  .input{
+    display: flex;
+    width: 440px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px;
+border: 1px solid var(--neutral-grey-09, #CCC);
+background: var(--neutral-grey-11, #FFF);
+  }
+  .input-style{
+    color: var(--neutral-grey-07, #999);
+
+    /* UI/B3/400 */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    border: none;
+    outline: none;
+  }
+
+  // LABEL 
+  .label{
+    color: var(--neutral-grey-02, #1A1A1A);
+
+/* UI/B2/400 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  }
+
+
+  .contact-heading{
+    color: var(--neutral-grey-02, #1A1A1A);
+
+/* UI/T6/400 */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+  }
+
+
+
+
+  .Ellips-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .Ellips-2 {
+    display: flex;
+    position: absolute;
+    top: 18rem;
+    right: 0;
+  }
